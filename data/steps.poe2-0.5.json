@@ -51,7 +51,7 @@
         {
           "zone": "The Grim Tangle",
           "travel": "Cemetery of the Eternals",
-          "note": "Head opposite the entrance to find the exit. The Rotten Druid boss is optional but drops an Uncut Support Gem if you want the detour."
+          "note": "Follow the mushrooms toward the optional Rotten Druid (drops an Uncut Support Gem), or follow the caskets toward the Cemetery exit."
         },
         {
           "zone": "Cemetery of the Eternals",
@@ -69,7 +69,7 @@
             "The Crowbell"
           ],
           "travel": "Freythorn",
-          "note": "Follow the edges; points of interest are in the corners. The Crowbell grants a permanent +2 Skill Points on first kill."
+          "note": "Follow the trail of locusts to reach the Freythorn entrance; blood trails left by crowbells lead to the boss, and a signpost on the road points toward Ogham Village. The Crowbell grants a permanent +2 Skill Points on first kill."
         },
         {
           "zone": "Freythorn",
@@ -97,7 +97,7 @@
             "Renly"
           ],
           "tp": true,
-          "note": "Hug the right wall and head north. Turn in smithing tools to Renly (first character per league only)."
+          "note": "Hug the right wall and head north, then follow the cobblestone road to the smithing house for the Salvage Bench. Turn in smithing tools to Renly (first character per league only)."
         },
         {
           "zone": "Clearfell Encampment",
@@ -147,12 +147,12 @@
             "Rudja, the Dread Engineer"
           ],
           "tp": true,
-          "note": "Static diamond layout \u2014 head north from spawn to find the boss."
+          "note": "Static diamond layout \u2014 follow the railroad tracks, taking the turnout that connects the rails at each intersection, then head north from spawn to find the boss."
         },
         {
           "zone": "The Caravan",
           "travel": "Traitor's Passage",
-          "note": "Talk to Risu and Asala, then use the desert map."
+          "note": "Talk to Risu and Asala, then use the desert map. If Risu is already freed from a previous run, patch 0.5 lets you skip straight to Traitor's Passage without detouring through the Halani Gates."
         },
         {
           "zone": "Traitor's Passage",
@@ -211,7 +211,7 @@
         {
           "zone": "Mastodon Badlands",
           "travel": "The Bone Pits",
-          "note": "Hug a wall to find the exit and the Lightless Passage."
+          "note": "Look for cracks in the ground and follow them — they lead straight to the exit and the Lightless Passage."
         },
         {
           "zone": "The Bone Pits",
@@ -262,15 +262,15 @@
         },
         {
           "zone": "The Caravan",
-          "travel": "The Dreadnought Vanguard"
+          "travel": "The Dreadnought"
         },
         {
-          "zone": "The Dreadnought Vanguard",
+          "zone": "The Dreadnought",
           "bosses": [
             "Jamanra, the Abomination"
           ],
           "tp": true,
-          "note": "Linear \u2014 completes Act 2. Talk to the Hooded One, then Asala for Act 3."
+          "note": "Linear \u2014 completes Act 2. Talk to the Hooded One, then Asala for Act 3. (Patch 0.5 merged the old separate Dreadnought Vanguard zone into this one.)"
         }
       ]
     },
@@ -292,25 +292,8 @@
           "bosses": [
             "Mighty Silverfist"
           ],
-          "travel": "Infested Barrens",
-          "note": "Take the checkpoint/waypoint at the Venom Crypts entrance without entering yet. Mighty Silverfist grants a permanent +2 Skill Points on first kill."
-        },
-        {
-          "zone": "Infested Barrens",
-          "travel": "The Azak Bog",
-          "note": "Find the exits to Chimeral Wetlands, Azak Bog, and Matlan Waterways, taking each waypoint before backtracking."
-        },
-        {
-          "zone": "The Azak Bog",
-          "bosses": [
-            "Ignagduk, the Bog Witch"
-          ],
-          "travel": "Infested Barrens",
-          "note": "Boss is in the top-right quadrant (+30 Spirit)."
-        },
-        {
-          "zone": "Infested Barrens",
-          "port": "The Venom Crypts"
+          "port": "The Venom Crypts",
+          "note": "Talk to the explorers here — they point you toward the next area and mark it on your minimap. Take the Venom Crypts waypoint before porting in. Mighty Silverfist grants a permanent +2 Skill Points on first kill. (Patch 0.5 moved Venom Crypts to branch off Jungle Ruins instead of the Infested Barrens.)"
         },
         {
           "zone": "The Venom Crypts",
@@ -319,7 +302,13 @@
         },
         {
           "zone": "Ziggurat Encampment",
-          "port": "Chimeral Wetlands"
+          "travel": "Infested Barrens",
+          "note": "Back through Jungle Ruins."
+        },
+        {
+          "zone": "Infested Barrens",
+          "port": "Chimeral Wetlands",
+          "note": "Waypoint is near Alva; she points the way onward."
         },
         {
           "zone": "Chimeral Wetlands",
@@ -336,7 +325,7 @@
             "Blackjaw, the Remnant"
           ],
           "travel": "Jiquani's Sanctum",
-          "note": "Find 2 of the 3 small soul cores to open the door. Blackjaw grants a permanent +10% Fire Resistance on first kill."
+          "note": "Squared U-shaped layout with generators at opposite tips. Find 2 of the 3 small soul cores to open the door. Blackjaw grants a permanent +10% Fire Resistance on first kill."
         },
         {
           "zone": "Jiquani's Sanctum",
@@ -348,8 +337,20 @@
         },
         {
           "zone": "The Matlan Waterways",
-          "tp": true,
-          "note": "Pull every lever to lower the water, then the large one at the end."
+          "port": "The Azak Bog",
+          "note": "Walk over the pressure pads to lower the water — they auto-activate on contact, and the final section is already pre-drained (patch 0.5 replaced the old lever puzzle). Azak Bog now branches off from here instead of the Infested Barrens."
+        },
+        {
+          "zone": "The Azak Bog",
+          "bosses": [
+            "Ignagduk, the Bog Witch"
+          ],
+          "travel": "The Matlan Waterways",
+          "note": "Boss is in the top-right quadrant. Grants a permanent +30 Spirit on first kill."
+        },
+        {
+          "zone": "The Matlan Waterways",
+          "tp": true
         },
         {
           "zone": "Ziggurat Encampment",
@@ -388,7 +389,7 @@
             "Ketzuli, High Priest of the Sun"
           ],
           "travel": "Utzaal",
-          "note": "Triangular layout \u2014 go up the stairs twice, staying in shade to avoid damage."
+          "note": "Triangular layout \u2014 go up the stairs twice, staying in shade to avoid damage. Each floor's far corner is right about half the time, so check it first."
         },
         {
           "zone": "Utzaal",
@@ -396,12 +397,12 @@
             "Viper Napuatzi"
           ],
           "travel": "Aggorat",
-          "note": "Boss and the Aggorat exit are both toward the right/north end of the zone."
+          "note": "Follow the paved road — it leads straight to Viper. Boss and the Aggorat exit are both toward the right/north end of the zone."
         },
         {
           "zone": "Aggorat",
           "travel": "The Black Chambers",
-          "note": "Follow the Trial of Atziri voices across the plaza. Kill Vaal Goliaths until the sacrificial heart drops, then stab it at the sacrificial table for a skill point."
+          "note": "Follow the Trial of Atziri voices (the town crier's chanting points the way) across the plaza. Kill Vaal Goliaths until the sacrificial heart drops, then stab it at the sacrificial table for a skill point."
         },
         {
           "zone": "The Black Chambers",
@@ -538,7 +539,7 @@
             "Yama the White"
           ],
           "travel": "Trial of the Ancestors",
-          "note": "Find the three Hinekora Totems (corners of the zone) for attribute/resist bonuses before fighting Yama."
+          "note": "Clover-leaf layout — find the three Hinekora Totems (corners of the zone) for attribute/resist bonuses before fighting Yama. Navali here now grants a Greater Mind Rune (upgraded from Lesser in patch 0.5)."
         },
         {
           "zone": "Trial of the Ancestors",
