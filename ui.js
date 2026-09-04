@@ -17,16 +17,16 @@ const App = () => {
     const isHome = input === '[H' || input === '[1~' || input === '[7~' || input === 'OH';
     const isEnd = input === '[F' || input === '[4~' || input === '[8~' || input === 'OF';
 
-    if (input === 'j' || key.downArrow) {
+    if (input === 'j' || key.rightArrow) {
       nextStep();
     }
-    if (input === 'k' || key.upArrow) {
+    if (input === 'k' || key.leftArrow) {
       prevStep();
     }
-    if (input === 'h' || key.leftArrow) {
+    if (input === 'h' || key.downArrow) {
       prevAct();
     }
-    if (input === 'l' || key.rightArrow) {
+    if (input === 'l' || key.upArrow) {
       nextAct();
     }
     if (input === 'b' || isHome) {

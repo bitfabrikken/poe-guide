@@ -60,10 +60,10 @@ The following keybindings are available when the app is running:
 |-----|-----|
 | b / Home | Go to beginning |
 | e / End | Go to end |
-| h / ← | Go backward one act |
-| l / → | Go forward one act |
-| k / ↑ | Go backward one step |
-| j / ↓ | Go forward one step |
+| h / ↓ | Go backward one act |
+| l / ↑ | Go forward one act |
+| k / ← | Go backward one step |
+| j / → | Go forward one step |
 | r | Reset death counter |
 | q | Quit |
 
