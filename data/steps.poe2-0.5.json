@@ -11,13 +11,16 @@
             "Beira of the Rotten Pack"
           ],
           "travel": "The Grelwood",
-          "note": "Beira is always north/northeast of the waypoint. Mud Burrow is fully optional and often skipped."
+          "note": "Beira is always north/northeast of the waypoint and drops a permanent +10% Cold Resistance on first kill. Mud Burrow (optional, off the west side) has The Devourer miniboss for an Uncut Skill Gem, but it's a dead end most speedrunners skip."
         },
         {
           "zone": "The Grelwood",
           "waypoint": true,
+          "bosses": [
+            "Areagne, the Forgotten Witch"
+          ],
           "travel": "The Red Vale",
-          "note": "Waypoint is near the center. Grim Tangle branches off from here too."
+          "note": "Waypoint is near the center. Grim Tangle branches off from here too. Areagne (aka the frost witch — tough for her level, leans on cold degens and teleports) is an optional miniboss who drops an Uncut Support Gem; Gerung the Brambleghast nearby is a much easier optional kill for an Uncut Skill Gem."
         },
         {
           "zone": "The Red Vale",
@@ -48,7 +51,7 @@
         {
           "zone": "The Grim Tangle",
           "travel": "Cemetery of the Eternals",
-          "note": "Head opposite the entrance to find the exit. The Rotten Druid boss is optional."
+          "note": "Head opposite the entrance to find the exit. The Rotten Druid boss is optional but drops an Uncut Support Gem if you want the detour."
         },
         {
           "zone": "Cemetery of the Eternals",
@@ -58,7 +61,7 @@
             "Lachlann of Endless Lament"
           ],
           "travel": "Hunting Grounds",
-          "note": "Clear the Mausoleum of the Praetor and Tomb of the Consort (Sorrow Among Stones quest) before fighting Lachlann."
+          "note": "Clear the Mausoleum of the Praetor and Tomb of the Consort (Sorrow Among Stones quest) before fighting Lachlann — Draven and Asinia each drop an Uncut Skill Gem."
         },
         {
           "zone": "Hunting Grounds",
@@ -66,7 +69,7 @@
             "The Crowbell"
           ],
           "travel": "Freythorn",
-          "note": "Follow the edges; points of interest are in the corners."
+          "note": "Follow the edges; points of interest are in the corners. The Crowbell grants a permanent +2 Skill Points on first kill."
         },
         {
           "zone": "Freythorn",
@@ -102,27 +105,17 @@
         },
         {
           "zone": "The Manor Ramparts",
-          "travel": "Ogham Manor: First Floor",
+          "travel": "Ogham Manor",
           "note": "Follow the U-shaped layout."
         },
         {
-          "zone": "Ogham Manor: First Floor",
+          "zone": "Ogham Manor",
           "bosses": [
-            "Candlemass, the Living Rite"
-          ],
-          "travel": "Ogham Manor: Second Floor"
-        },
-        {
-          "zone": "Ogham Manor: Second Floor",
-          "travel": "Ogham Manor: Third Floor"
-        },
-        {
-          "zone": "Ogham Manor: Third Floor",
-          "bosses": [
+            "Candlemass, the Living Rite",
             "Count of Ogham"
           ],
           "tp": true,
-          "note": "Completes Act 1. Talk to the Hooded One in town to move on to Act 2."
+          "note": "One big zone, not separate floors. Candlemass is optional but grants a permanent +20 Maximum Life on first kill — worth the fight. Count of Ogham completes Act 1. Talk to the Hooded One in town to move on to Act 2."
         }
       ]
     },
@@ -172,10 +165,11 @@
         {
           "zone": "The Halani Gates",
           "bosses": [
-            "Jamanra, the Risen King"
+            "Jamanra, the Risen King",
+            "L'im the Impaler"
           ],
           "tp": true,
-          "note": "Keep close to the canyon, crossing it three times to find the boss."
+          "note": "Keep close to the canyon, crossing it three times to find Jamanra. L'im the Impaler is an optional miniboss along the way that drops an Uncut Skill Gem."
         },
         {
           "zone": "The Caravan",
@@ -192,7 +186,7 @@
             "Kabala, Constrictor Queen"
           ],
           "travel": "The Lost City",
-          "note": "Run the outside edges to find the Venom Pit, then the exit (usually bottom right after the big bridge)."
+          "note": "Run the outside edges to find the Venom Pit, then the exit (usually bottom right after the big bridge). Kabala grants a permanent +2 Skill Points on first kill."
         },
         {
           "zone": "The Lost City",
@@ -299,7 +293,7 @@
             "Mighty Silverfist"
           ],
           "travel": "Infested Barrens",
-          "note": "Take the checkpoint/waypoint at the Venom Crypts entrance without entering yet."
+          "note": "Take the checkpoint/waypoint at the Venom Crypts entrance without entering yet. Mighty Silverfist grants a permanent +2 Skill Points on first kill."
         },
         {
           "zone": "Infested Barrens",
@@ -342,7 +336,7 @@
             "Blackjaw, the Remnant"
           ],
           "travel": "Jiquani's Sanctum",
-          "note": "Find 2 of the 3 small soul cores to open the door."
+          "note": "Find 2 of the 3 small soul cores to open the door. Blackjaw grants a permanent +10% Fire Resistance on first kill."
         },
         {
           "zone": "Jiquani's Sanctum",
@@ -480,7 +474,7 @@
             "The Blind Beast"
           ],
           "travel": "Volcanic Warrens",
-          "note": "Head away from the dock. Grab the wrecked-boat torn map piece."
+          "note": "Head away from the dock. Grab the wrecked-boat torn map piece. The Blind Beast (Primal Arena) drops a Greater Blank Rune; Mimok the Enslaved (Beast Pen, easy to miss) drops a Tier 4 Support Gem."
         },
         {
           "zone": "Volcanic Warrens",
@@ -488,7 +482,7 @@
             "Krutog, Lord of Kin"
           ],
           "port": "Kingsmarch",
-          "note": "Boss is opposite the entrance in this long, winding zone."
+          "note": "Boss is opposite the entrance in this long, winding zone. The Magma Twins (Volcanic Nest) are an optional pair that drop a Ruby or Topaz Ring depending on kill order."
         },
         {
           "zone": "Kingsmarch",
@@ -505,7 +499,7 @@
             "Omniphobia"
           ],
           "tp": true,
-          "note": "Summon Tujen, kill Captain Hartlin for the Verisium, fetch Verisium Spikes from Dannig in town, then impale the totems and finish the Delirium encounter."
+          "note": "Summon Tujen, kill Captain Hartlin for the Verisium, fetch Verisium Spikes from Dannig in town, then impale the totems and finish the Delirium encounter for a permanent +2 Skill Points."
         },
         {
           "zone": "Kingsmarch",
@@ -572,269 +566,172 @@
     },
     {
       "act": 1,
-      "difficulty": "cruel",
+      "difficulty": "interlude",
       "steps": [
         {
-          "zone": "Clearfell",
-          "bosses": [
-            "Beira of the Rotten Pack"
-          ],
-          "travel": "The Grelwood"
+          "zone": "The Refuge",
+          "travel": "Scorched Farmlands",
+          "note": "Interlude 1 (Ogham). Entry point via the Hooded One in Kingsmarch. Talk to the Ferryman here for a one-time Greater Rune purchase before heading out."
         },
         {
-          "zone": "The Grelwood",
+          "zone": "Scorched Farmlands",
           "waypoint": true,
-          "travel": "Cemetery of the Eternals",
-          "note": "Same layout as Normal \u2014 Red Vale and Grim Tangle branch off here if you want the side bosses again."
+          "travel": "Blackwood",
+          "note": "Isolde & Heldra (optional) are to the east if you want the fight. Stones of Serle branches off to the south."
         },
         {
-          "zone": "Cemetery of the Eternals",
+          "zone": "Blackwood",
+          "travel": "Holten",
+          "note": "Initially sealed by Darkness — clear it to open the way into Holten."
+        },
+        {
+          "zone": "Holten",
+          "travel": "Wolvenhold",
+          "note": "Godwin & Sigbert (optional) and the Soul of the Ferryman encounter at the docks are both skippable side fights. Holten Estate branches off here too."
+        },
+        {
+          "zone": "Wolvenhold",
           "bosses": [
-            "Draven",
-            "Asinia",
-            "Lachlann of Endless Lament"
+            "Oswin, the Dread Warden"
           ],
-          "travel": "Hunting Grounds"
+          "travel": "Holten",
+          "note": "Oswin drops the Warden's Ledger for a permanent +2 Skill Points, plus a free unique item and a Vaal Orb."
         },
         {
-          "zone": "Hunting Grounds",
+          "zone": "Holten",
+          "travel": "Holten Estate"
+        },
+        {
+          "zone": "Holten Estate",
           "bosses": [
-            "The Crowbell"
+            "Thane Wulfric",
+            "Lady Elswyth"
           ],
-          "travel": "Ogham Farmlands"
-        },
-        {
-          "zone": "Ogham Farmlands",
-          "travel": "Ogham Village"
-        },
-        {
-          "zone": "Ogham Village",
-          "bosses": [
-            "The Executioner"
-          ],
-          "tp": true
-        },
-        {
-          "zone": "Clearfell Encampment",
-          "travel": "The Manor Ramparts"
-        },
-        {
-          "zone": "The Manor Ramparts",
-          "travel": "Ogham Manor: First Floor"
-        },
-        {
-          "zone": "Ogham Manor: First Floor",
-          "bosses": [
-            "Candlemass, the Living Rite"
-          ],
-          "travel": "Ogham Manor: Second Floor"
-        },
-        {
-          "zone": "Ogham Manor: Second Floor",
-          "travel": "Ogham Manor: Third Floor"
-        },
-        {
-          "zone": "Ogham Manor: Third Floor",
-          "bosses": [
-            "Count of Ogham"
-          ],
-          "tp": true,
-          "note": "Completes Act 1 Cruel."
+          "port": "Kingsmarch",
+          "note": "Completes Interlude 1 — fight both together in the manor courtyard."
         }
       ]
     },
     {
       "act": 2,
-      "difficulty": "cruel",
+      "difficulty": "interlude",
       "steps": [
         {
-          "zone": "Vastiri Outskirts",
+          "zone": "Khari Crossing",
+          "waypoint": true,
           "bosses": [
-            "Rathbreaker"
+            "Akthi",
+            "Anundr"
           ],
-          "tp": true
+          "travel": "Pools of Kathal",
+          "note": "Interlude 2 (Khari Bazaar). Entry via the Hooded One. Akthi (worm) and Anundr (sandworm) are southeast of the entrance; defeating both grants a permanent +2 Skill Points."
         },
         {
-          "zone": "The Caravan",
-          "travel": "Mawdun Quarry"
+          "zone": "Pools of Kathal",
+          "waypoint": true,
+          "travel": "Sel Khari Sanctuary"
         },
         {
-          "zone": "Mawdun Quarry",
-          "travel": "Mawdun Mine"
-        },
-        {
-          "zone": "Mawdun Mine",
+          "zone": "Sel Khari Sanctuary",
+          "waypoint": true,
           "bosses": [
-            "Rudja, the Dread Engineer"
+            "Elzarah, the Cobra Lord"
           ],
-          "tp": true
+          "travel": "Molten Shrine",
+          "note": "Boss is at the end of the Sanctuary. The Two Wishes pedestals along the way drop rare jewelry/jewels from Djinn altars."
         },
         {
-          "zone": "The Caravan",
-          "travel": "Traitor's Passage"
+          "zone": "Molten Shrine",
+          "travel": "Skullmaw Stairway",
+          "note": "Activate the Molten One's Gift here for a permanent +5% Maximum Life."
         },
         {
-          "zone": "Traitor's Passage",
+          "zone": "Skullmaw Stairway",
+          "travel": "Qimah"
+        },
+        {
+          "zone": "Qimah",
+          "travel": "Qimah Reservoir",
+          "note": "Orbala's Pillar lets you pick 1 of 7 permanent Boons, swappable anytime. Qimah Reservoir (optional) is reached by summoning Jado."
+        },
+        {
+          "zone": "Qimah Reservoir",
+          "travel": "Qimah",
+          "note": "Fully optional — click the giant vase to spawn the rare Bloodbilge."
+        },
+        {
+          "zone": "Qimah",
           "bosses": [
-            "Balbala, the Traitor"
+            "Azmadi, the Faridun Prince"
           ],
-          "travel": "The Halani Gates"
-        },
-        {
-          "zone": "The Halani Gates",
-          "bosses": [
-            "Jamanra, the Risen King"
-          ],
-          "tp": true
-        },
-        {
-          "zone": "The Caravan",
-          "trial": "Trial of the Sekhemas",
-          "travel": "Keth"
-        },
-        {
-          "zone": "Keth",
-          "bosses": [
-            "Kabala, Constrictor Queen"
-          ],
-          "travel": "The Lost City"
-        },
-        {
-          "zone": "The Lost City",
-          "travel": "Buried Shrines"
-        },
-        {
-          "zone": "Buried Shrines",
-          "bosses": [
-            "Azarian, the Forsaken Son"
-          ],
-          "tp": true
-        },
-        {
-          "zone": "The Caravan",
-          "travel": "Deshar"
-        },
-        {
-          "zone": "Deshar",
-          "travel": "The Spires of Deshar"
-        },
-        {
-          "zone": "The Spires of Deshar",
-          "bosses": [
-            "Tor Gul, the Defiler"
-          ],
-          "tp": true
-        },
-        {
-          "zone": "The Caravan",
-          "travel": "The Dreadnought Vanguard"
-        },
-        {
-          "zone": "The Dreadnought Vanguard",
-          "bosses": [
-            "Jamanra, the Abomination"
-          ],
-          "tp": true,
-          "note": "Completes Act 2 Cruel."
+          "port": "Kingsmarch",
+          "note": "Completes Interlude 2. Zarokh joins the fight once Azmadi drops below 70% HP."
         }
       ]
     },
     {
       "act": 3,
-      "difficulty": "cruel",
+      "difficulty": "interlude",
       "steps": [
         {
-          "zone": "Sandswept Marsh",
-          "travel": "Ziggurat Encampment"
+          "zone": "The Glade",
+          "travel": "Ashen Forest",
+          "note": "Interlude 3 (Mount Kriar). Entry via the Hooded One."
         },
         {
-          "zone": "Ziggurat Encampment",
-          "travel": "Jungle Ruins"
+          "zone": "Ashen Forest",
+          "travel": "Kriar Village",
+          "note": "No waypoint here. An Ancient Monument (Vaal Beacon) encounter drops a skill gem that scales with interlude order. Roving wisps guide the way to Kriar Village."
         },
         {
-          "zone": "Jungle Ruins",
+          "zone": "Kriar Village",
           "bosses": [
-            "Mighty Silverfist"
+            "Lythara, the Wayward Spear"
           ],
-          "travel": "Chimeral Wetlands"
+          "travel": "Glacial Tarn",
+          "note": "Lythara drops a permanent +40 Spirit via the Gemcrust Skull."
         },
         {
-          "zone": "Chimeral Wetlands",
+          "zone": "Glacial Tarn",
+          "waypoint": true,
           "bosses": [
-            "Xyclucian, The Chimera"
+            "Rakkar, the Frozen Talon"
           ],
-          "trial": "Trial of Chaos",
-          "travel": "Jiquani's Machinarium"
+          "travel": "Howling Caves",
+          "note": "Guaranteed Expedition encounter here. Rakkar is to the northwest; defeating him reveals Kriar Peaks."
         },
         {
-          "zone": "Jiquani's Machinarium",
+          "zone": "Howling Caves",
           "bosses": [
-            "Blackjaw, the Remnant"
+            "The Abominable Yeti"
           ],
-          "travel": "Jiquani's Sanctum"
+          "travel": "Kriar Peaks",
+          "note": "Reached via the Vaal Beacon at Glacial Tarn. Return the Yeti's tusks to Hilda for a permanent +2 Skill Points (Book of Specialization)."
         },
         {
-          "zone": "Jiquani's Sanctum",
-          "bosses": [
-            "Zicoatl, Warden of the Core"
+          "zone": "Kriar Peaks",
+          "rewards": [
+            "Elder Maddox"
           ],
-          "travel": "The Matlan Waterways"
+          "travel": "Etched Ravine",
+          "note": "Elder Maddox (around 10-11 o'clock) offers a one-time free unique item choice."
         },
         {
-          "zone": "The Matlan Waterways",
-          "tp": true
-        },
-        {
-          "zone": "Ziggurat Encampment",
-          "travel": "The Drowned City"
-        },
-        {
-          "zone": "The Drowned City",
-          "travel": "The Molten Vault"
-        },
-        {
-          "zone": "The Molten Vault",
+          "zone": "Etched Ravine",
           "bosses": [
-            "Mektul, the Forgemaster"
+            "Stormgore, the Guardian"
           ],
-          "travel": "Apex of Filth"
+          "travel": "The Cuachic Vault",
+          "note": "Vaal Beacon is at the far end of the zone."
         },
         {
-          "zone": "Apex of Filth",
+          "zone": "The Cuachic Vault",
           "bosses": [
-            "Queen of Filth"
-          ],
-          "tp": true
-        },
-        {
-          "zone": "Ziggurat Encampment",
-          "travel": "Temple of Kopec"
-        },
-        {
-          "zone": "Temple of Kopec",
-          "bosses": [
-            "Ketzuli, High Priest of the Sun"
-          ],
-          "travel": "Utzaal"
-        },
-        {
-          "zone": "Utzaal",
-          "bosses": [
-            "Viper Napuatzi"
-          ],
-          "travel": "Aggorat"
-        },
-        {
-          "zone": "Aggorat",
-          "travel": "The Black Chambers"
-        },
-        {
-          "zone": "The Black Chambers",
-          "bosses": [
-            "Doryani, Royal Thaumaturge"
+            "Zolin",
+            "Zelina"
           ],
           "tp": true,
-          "note": "Completes Act 3 Cruel \u2014 and the current campaign. Acts 5-6 arrive with the 1.0 full release."
+          "note": "Completes Interlude 3 and the current campaign. Return to Kingsmarch and talk to the Hooded One for a final permanent +2 Skill Points, then use the map device with Doryani to enter the Atlas endgame."
         }
       ]
     }

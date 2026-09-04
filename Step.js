@@ -12,7 +12,7 @@ const Step = ({step, label}) => {
   if (!step) {
     borderStyle = undefined
   } else {
-    const actLabel = `Act ${step.act}${step.difficulty === 'cruel' ? ' (Cruel)' : ''}`;
+    const actLabel = step.difficulty === 'interlude' ? `Interlude ${step.act}` : `Act ${step.act}`;
     actLabelNode = (
       <Box flexDirection="row-reverse" paddingX={2}>
         <Text><Text color={label ? "gray" : "blueBright"}>{actLabel}</Text><Text color="gray">.</Text><Text color={label ? "gray" : "whiteBright"}>{step.step}</Text></Text>

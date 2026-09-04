@@ -70,14 +70,18 @@ The following keybindings are available when the app is running:
 ## Changes
 
 This fork targets **Path of Exile 2** (currently Early Access patch 0.5.x),
-not the original Path of Exile. It covers Acts 1-4 (Normal) and the current
-Cruel difficulty pass of Acts 1-3, built from community leveling guides and
-cross-referenced against a real Client.txt. Zone changes are auto-detected
-from the game's own `[LOADING SCREEN] (<zone name>)` log line, matched
-directly against each step's zone name. Zone-to-zone travel notes should be
-solid, but exact zone levels are approximate estimates rather than confirmed
-values. Acts 5-6 aren't in the data yet since they don't exist in the game
-until the 1.0 full release (December 2026).
+not the original Path of Exile. It covers Acts 1-4 (Normal) and the three
+Interlude chapters that follow Act 4, built from community leveling guides
+and cross-referenced against a real Client.txt. Patch 0.5 removed Cruel
+difficulty entirely and replaced it with the Interludes, so there's no
+separate "Cruel" pass anymore. Zone changes are auto-detected from the
+game's own `[LOADING SCREEN] (<zone name>)` log line, matched directly
+against each step's zone name. Zone-to-zone travel notes should be solid,
+but exact zone levels are approximate estimates rather than confirmed
+values. Steps also call out optional minibosses worth detouring for when
+they drop a permanent buff or an uncut gem. Acts 5-6 aren't in the data yet
+since they don't exist in the game until the 1.0 full release (December
+2026).
 
 If you have any suggestions for changes please let me know either as issues
 on [github](https://github.com/kelsin/poe-guide/issues).
