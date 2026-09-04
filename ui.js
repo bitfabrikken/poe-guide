@@ -11,22 +11,28 @@ const App = () => {
   const {current, next, prev, zone, nextAct, prevAct, nextStep, prevStep, firstStep, lastStep, deaths, resetDeaths} = useData();
 
   useInput((input, key) => {
-    if (input === 'j') {
+    // Home/End aren't parsed into `key` by Ink, so match the raw escape
+    // sequences directly (xterm, vt220/linux console, and rxvt/urxvt variants
+    // cover effectively every terminal emulator).
+    const isHome = input === '[H' || input === '[1~' || input === '[7~' || input === 'OH';
+    const isEnd = input === '[F' || input === '[4~' || input === '[8~' || input === 'OF';
+
+    if (input === 'j' || key.downArrow) {
       nextStep();
     }
-    if (input === 'k') {
+    if (input === 'k' || key.upArrow) {
       prevStep();
     }
-    if (input === 'h') {
+    if (input === 'h' || key.leftArrow) {
       prevAct();
     }
-    if (input === 'l') {
+    if (input === 'l' || key.rightArrow) {
       nextAct();
     }
-    if (input === 'b') {
+    if (input === 'b' || isHome) {
       firstStep();
     }
-    if (input === 'e') {
+    if (input === 'e' || isEnd) {
       lastStep();
     }
     if (input === 'r') {
