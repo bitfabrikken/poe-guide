@@ -20,7 +20,7 @@
     "react": "^17.0.2",
     "tail": "^2.2.4"
   },
-  "description": "Small CLI tool to help with Path of Exile Leveling",
+  "description": "Small CLI tool to help with Path of Exile 2 Leveling",
   "devDependencies": {
     "@ava/babel": "^2.0.0",
     "@babel/preset-env": "^7.18.10",
@@ -38,8 +38,8 @@
     "node": ">=10"
   },
   "files": [
-    "data/steps.3.18.json",
-    "data/zones.3.18.json",
+    "data/steps.poe2-0.5.json",
+    "data/zones.poe2-0.5.json",
     "cli.js",
     "config.js",
     "hooks.js",
@@ -52,7 +52,7 @@
   "scripts": {
     "test": "xo && ava"
   },
-  "version": "0.0.3",
+  "version": "0.1.0",
   "xo": {
     "extends": "xo-react",
     "rules": {

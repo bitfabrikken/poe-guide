@@ -1,0 +1,842 @@
+{
+  "version": "0.5.5",
+  "acts": [
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "steps": [
+        {
+          "zone": "Clearfell",
+          "bosses": [
+            "Beira of the Rotten Pack"
+          ],
+          "travel": "The Grelwood",
+          "note": "Beira is always north/northeast of the waypoint. Mud Burrow is fully optional and often skipped."
+        },
+        {
+          "zone": "The Grelwood",
+          "waypoint": true,
+          "travel": "The Red Vale",
+          "note": "Waypoint is near the center. Grim Tangle branches off from here too."
+        },
+        {
+          "zone": "The Red Vale",
+          "bosses": [
+            "The Rust King"
+          ],
+          "travel": "The Grelwood",
+          "note": "Find the three Rust Altars to unlock the boss."
+        },
+        {
+          "zone": "The Grelwood",
+          "rewards": [
+            "Renly",
+            "Una"
+          ],
+          "tp": true,
+          "note": "Back to town: get runic tools from Renly, click the three runes at the waypoint, then talk to Una."
+        },
+        {
+          "zone": "Clearfell Encampment",
+          "travel": "The Grelwood"
+        },
+        {
+          "zone": "The Grelwood",
+          "travel": "The Grim Tangle",
+          "note": "Head to the entrance you skipped earlier."
+        },
+        {
+          "zone": "The Grim Tangle",
+          "travel": "Cemetery of the Eternals",
+          "note": "Head opposite the entrance to find the exit. The Rotten Druid boss is optional."
+        },
+        {
+          "zone": "Cemetery of the Eternals",
+          "bosses": [
+            "Draven",
+            "Asinia",
+            "Lachlann of Endless Lament"
+          ],
+          "travel": "Hunting Grounds",
+          "note": "Clear the Mausoleum of the Praetor and Tomb of the Consort (Sorrow Among Stones quest) before fighting Lachlann."
+        },
+        {
+          "zone": "Hunting Grounds",
+          "bosses": [
+            "The Crowbell"
+          ],
+          "travel": "Freythorn",
+          "note": "Follow the edges; points of interest are in the corners."
+        },
+        {
+          "zone": "Freythorn",
+          "bosses": [
+            "The King in the Mists"
+          ],
+          "travel": "Hunting Grounds",
+          "note": "Complete all 4 ritual encounters to spawn the boss (+30 Spirit, normal only)."
+        },
+        {
+          "zone": "Hunting Grounds",
+          "travel": "Ogham Farmlands"
+        },
+        {
+          "zone": "Ogham Farmlands",
+          "travel": "Ogham Village",
+          "note": "Find Una's Lute near the center for a skill point reward."
+        },
+        {
+          "zone": "Ogham Village",
+          "bosses": [
+            "The Executioner"
+          ],
+          "rewards": [
+            "Renly"
+          ],
+          "tp": true,
+          "note": "Hug the right wall and head north. Turn in smithing tools to Renly (first character per league only)."
+        },
+        {
+          "zone": "Clearfell Encampment",
+          "travel": "The Manor Ramparts"
+        },
+        {
+          "zone": "The Manor Ramparts",
+          "travel": "Ogham Manor: First Floor",
+          "note": "Follow the U-shaped layout."
+        },
+        {
+          "zone": "Ogham Manor: First Floor",
+          "bosses": [
+            "Candlemass, the Living Rite"
+          ],
+          "travel": "Ogham Manor: Second Floor"
+        },
+        {
+          "zone": "Ogham Manor: Second Floor",
+          "travel": "Ogham Manor: Third Floor"
+        },
+        {
+          "zone": "Ogham Manor: Third Floor",
+          "bosses": [
+            "Count of Ogham"
+          ],
+          "tp": true,
+          "note": "Completes Act 1. Talk to the Hooded One in town to move on to Act 2."
+        }
+      ]
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "steps": [
+        {
+          "zone": "Vastiri Outskirts",
+          "bosses": [
+            "Rathbreaker"
+          ],
+          "tp": true,
+          "note": "Follow the inside wall in a Z-shape pattern to a narrow canyon leading to the boss."
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Mawdun Quarry",
+          "note": "Speak to everyone, then use the desert map."
+        },
+        {
+          "zone": "Mawdun Quarry",
+          "travel": "Mawdun Mine",
+          "note": "Follow an S/Z-shape pattern along a wall to the exit."
+        },
+        {
+          "zone": "Mawdun Mine",
+          "bosses": [
+            "Rudja, the Dread Engineer"
+          ],
+          "tp": true,
+          "note": "Static diamond layout \u2014 head north from spawn to find the boss."
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Traitor's Passage",
+          "note": "Talk to Risu and Asala, then use the desert map."
+        },
+        {
+          "zone": "Traitor's Passage",
+          "bosses": [
+            "Balbala, the Traitor"
+          ],
+          "travel": "The Halani Gates",
+          "note": "Follow the yellow paper seals on the walls to find Balbala. Grants access to the Trial of the Sekhemas."
+        },
+        {
+          "zone": "The Halani Gates",
+          "bosses": [
+            "Jamanra, the Risen King"
+          ],
+          "tp": true,
+          "note": "Keep close to the canyon, crossing it three times to find the boss."
+        },
+        {
+          "zone": "The Caravan",
+          "rewards": [
+            "Zarka"
+          ],
+          "trial": "Trial of the Sekhemas",
+          "travel": "Keth",
+          "note": "Do your first ascendancy trial whenever ready, then head to Keth."
+        },
+        {
+          "zone": "Keth",
+          "bosses": [
+            "Kabala, Constrictor Queen"
+          ],
+          "travel": "The Lost City",
+          "note": "Run the outside edges to find the Venom Pit, then the exit (usually bottom right after the big bridge)."
+        },
+        {
+          "zone": "The Lost City",
+          "travel": "Buried Shrines",
+          "note": "Cross the V-shaped bridge and continue away from the entrance."
+        },
+        {
+          "zone": "Buried Shrines",
+          "bosses": [
+            "Azarian, the Forsaken Son"
+          ],
+          "tp": true,
+          "note": "The crown-shaped boss tile is usually at the most northerly or east-facing point."
+        },
+        {
+          "zone": "The Caravan",
+          "rewards": [
+            "Zarka"
+          ],
+          "travel": "Mastodon Badlands"
+        },
+        {
+          "zone": "Mastodon Badlands",
+          "travel": "The Bone Pits",
+          "note": "Hug a wall to find the exit and the Lightless Passage."
+        },
+        {
+          "zone": "The Bone Pits",
+          "bosses": [
+            "Iktab, the Deathlord",
+            "Ekbab, Ancient Steed"
+          ],
+          "tp": true,
+          "note": "Boss room lines up with the entrance past the bone arch. Loot the Sun Clan relic from hyenas."
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Valley of the Titans"
+        },
+        {
+          "zone": "Valley of the Titans",
+          "travel": "The Titan Grotto",
+          "note": "Click the three ancient seals around the edge, then place both relics in the medallion."
+        },
+        {
+          "zone": "The Titan Grotto",
+          "bosses": [
+            "Zalmarath, the Colossus"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Deshar",
+          "note": "Sound the horn at the front of the caravan, then use the desert map."
+        },
+        {
+          "zone": "Deshar",
+          "travel": "Path of Mourning",
+          "note": "Talk to the abandoned rhoa. Find the final letter near the big tower."
+        },
+        {
+          "zone": "Path of Mourning",
+          "travel": "The Spires of Deshar"
+        },
+        {
+          "zone": "The Spires of Deshar",
+          "bosses": [
+            "Tor Gul, the Defiler"
+          ],
+          "tp": true,
+          "note": "Tor Gul spawns directly opposite the entrance. Find the Sisters of Garukhan for +10% lightning res."
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "The Dreadnought Vanguard"
+        },
+        {
+          "zone": "The Dreadnought Vanguard",
+          "bosses": [
+            "Jamanra, the Abomination"
+          ],
+          "tp": true,
+          "note": "Linear \u2014 completes Act 2. Talk to the Hooded One, then Asala for Act 3."
+        }
+      ]
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "steps": [
+        {
+          "zone": "Sandswept Marsh",
+          "travel": "Ziggurat Encampment",
+          "note": "The exit is on the far wall opposite the entrance \u2014 run along it."
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "travel": "Jungle Ruins"
+        },
+        {
+          "zone": "Jungle Ruins",
+          "bosses": [
+            "Mighty Silverfist"
+          ],
+          "travel": "Infested Barrens",
+          "note": "Take the checkpoint/waypoint at the Venom Crypts entrance without entering yet."
+        },
+        {
+          "zone": "Infested Barrens",
+          "travel": "The Azak Bog",
+          "note": "Find the exits to Chimeral Wetlands, Azak Bog, and Matlan Waterways, taking each waypoint before backtracking."
+        },
+        {
+          "zone": "The Azak Bog",
+          "bosses": [
+            "Ignagduk, the Bog Witch"
+          ],
+          "travel": "Infested Barrens",
+          "note": "Boss is in the top-right quadrant (+30 Spirit)."
+        },
+        {
+          "zone": "Infested Barrens",
+          "port": "The Venom Crypts"
+        },
+        {
+          "zone": "The Venom Crypts",
+          "tp": true,
+          "note": "Find the corpse for the venom phial in the Den of the Serpent Priestess, then turn it in at Servi for a permanent buff (choice is final)."
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "port": "Chimeral Wetlands"
+        },
+        {
+          "zone": "Chimeral Wetlands",
+          "bosses": [
+            "Xyclucian, The Chimera"
+          ],
+          "trial": "Trial of Chaos",
+          "travel": "Jiquani's Machinarium",
+          "note": "Follow the left-hand border. Also grants the Trial of Chaos entrance."
+        },
+        {
+          "zone": "Jiquani's Machinarium",
+          "bosses": [
+            "Blackjaw, the Remnant"
+          ],
+          "travel": "Jiquani's Sanctum",
+          "note": "Find 2 of the 3 small soul cores to open the door."
+        },
+        {
+          "zone": "Jiquani's Sanctum",
+          "bosses": [
+            "Zicoatl, Warden of the Core"
+          ],
+          "travel": "The Matlan Waterways",
+          "note": "Activate the waypoint immediately, then find both medium soul cores and generators."
+        },
+        {
+          "zone": "The Matlan Waterways",
+          "tp": true,
+          "note": "Pull every lever to lower the water, then the large one at the end."
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "travel": "The Drowned City",
+          "note": "Talk to Alva."
+        },
+        {
+          "zone": "The Drowned City",
+          "travel": "The Molten Vault",
+          "note": "Take the waypoints for the Molten Vault and Apex of Filth (roughly NW/NE) before continuing."
+        },
+        {
+          "zone": "The Molten Vault",
+          "bosses": [
+            "Mektul, the Forgemaster"
+          ],
+          "travel": "Apex of Filth",
+          "note": "Linear \u2014 kill the boss quickly (under 4 minutes) before molten gold floods the area."
+        },
+        {
+          "zone": "Apex of Filth",
+          "bosses": [
+            "Queen of Filth"
+          ],
+          "tp": true,
+          "note": "Huge spiral layout \u2014 travel a full loop to reach the boss at the top wall."
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "travel": "Temple of Kopec",
+          "note": "Enter opposite the Drowned City."
+        },
+        {
+          "zone": "Temple of Kopec",
+          "bosses": [
+            "Ketzuli, High Priest of the Sun"
+          ],
+          "travel": "Utzaal",
+          "note": "Triangular layout \u2014 go up the stairs twice, staying in shade to avoid damage."
+        },
+        {
+          "zone": "Utzaal",
+          "bosses": [
+            "Viper Napuatzi"
+          ],
+          "travel": "Aggorat",
+          "note": "Boss and the Aggorat exit are both toward the right/north end of the zone."
+        },
+        {
+          "zone": "Aggorat",
+          "travel": "The Black Chambers",
+          "note": "Follow the Trial of Atziri voices across the plaza. Kill Vaal Goliaths until the sacrificial heart drops, then stab it at the sacrificial table for a skill point."
+        },
+        {
+          "zone": "The Black Chambers",
+          "bosses": [
+            "Doryani, Royal Thaumaturge"
+          ],
+          "tp": true,
+          "note": "Completes Act 3 \u2014 his arena is opposite the entrance along the center line."
+        }
+      ]
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "steps": [
+        {
+          "zone": "Kingsmarch",
+          "travel": "Whakapanu Island",
+          "note": "Speak to Doryani, Alva, then take the Boat Charter. Talk to Tujen/Ange/Kanu/Makoru to pick an island \u2014 Whakapanu first."
+        },
+        {
+          "zone": "Whakapanu Island",
+          "travel": "Singing Caverns",
+          "note": "Find the Shark Pit (Great White One) and the Petrified Pirate for a torn map piece, then the far-end exit."
+        },
+        {
+          "zone": "Singing Caverns",
+          "bosses": [
+            "Diamora, Song of Death"
+          ],
+          "port": "Kingsmarch",
+          "note": "Boss is opposite the entrance in the circular/diamond layout. Unlocks the Shoreline Hideout."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Shrike Island"
+        },
+        {
+          "zone": "Shrike Island",
+          "bosses": [
+            "Scourge of the Skies"
+          ],
+          "port": "Kingsmarch",
+          "note": "Fully linear \u2014 boss is at the end, with a torn map piece along the way."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Abandoned Prison"
+        },
+        {
+          "zone": "Abandoned Prison",
+          "travel": "Solitary Confinement",
+          "note": "Kill monsters for the Chapel Key, open the Chapel Door for a permanent flask-recovery buff, then find the exit."
+        },
+        {
+          "zone": "Solitary Confinement",
+          "bosses": [
+            "The Prisoner"
+          ],
+          "port": "Kingsmarch",
+          "note": "Linear \u2014 hug the wall the waves crash into."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Isle of Kin"
+        },
+        {
+          "zone": "Isle of Kin",
+          "bosses": [
+            "The Blind Beast"
+          ],
+          "travel": "Volcanic Warrens",
+          "note": "Head away from the dock. Grab the wrecked-boat torn map piece."
+        },
+        {
+          "zone": "Volcanic Warrens",
+          "bosses": [
+            "Krutog, Lord of Kin"
+          ],
+          "port": "Kingsmarch",
+          "note": "Boss is opposite the entrance in this long, winding zone."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Kedge Bay"
+        },
+        {
+          "zone": "Kedge Bay",
+          "travel": "Journey's End",
+          "note": "Fully optional zone \u2014 grab the final torn map piece from the smuggler's stash, unlocking Plunder's Point."
+        },
+        {
+          "zone": "Journey's End",
+          "bosses": [
+            "Omniphobia"
+          ],
+          "tp": true,
+          "note": "Summon Tujen, kill Captain Hartlin for the Verisium, fetch Verisium Spikes from Dannig in town, then impale the totems and finish the Delirium encounter."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Arastas",
+          "note": "All three main islands (Whakapanu/Shrike/Prison) done \u2014 head to Arastas next."
+        },
+        {
+          "zone": "Arastas",
+          "bosses": [
+            "Torvian, Hand of the Savior"
+          ],
+          "travel": "Excavation",
+          "note": "Follow Missionary Lorandis into the church, destroy the forcefield, then continue to the Excavated Pit."
+        },
+        {
+          "zone": "Excavation",
+          "bosses": [
+            "Benedictus, First Herald of Utopia"
+          ],
+          "port": "Kingsmarch",
+          "note": "Two blocks joined by a small square \u2014 hug a wall to find the Precursor Forge."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Eye of Hinekora",
+          "note": "Talk to the Hidden One, then Rodri on the ship to sail to Ngakanu."
+        },
+        {
+          "zone": "Eye of Hinekora",
+          "travel": "Halls of the Dead",
+          "note": "Linear snake-like funnel through three 'test of mettle' encounters. Pay respects at the Silent Hall for +5% max mana."
+        },
+        {
+          "zone": "Halls of the Dead",
+          "bosses": [
+            "Yama the White"
+          ],
+          "travel": "Trial of the Ancestors",
+          "note": "Find the three Hinekora Totems (corners of the zone) for attribute/resist bonuses before fighting Yama."
+        },
+        {
+          "zone": "Trial of the Ancestors",
+          "port": "Kingsmarch",
+          "note": "Talk to Navali for the Tattoo of Hinekora (+2 skill points)."
+        },
+        {
+          "zone": "Kingsmarch",
+          "travel": "Ngakanu"
+        },
+        {
+          "zone": "Ngakanu",
+          "travel": "Heart of the Tribe",
+          "note": "Follow the boundary edge after leaving the large building."
+        },
+        {
+          "zone": "Heart of the Tribe",
+          "bosses": [
+            "Tavakai"
+          ],
+          "tp": true,
+          "note": "Completes Act 4 \u2014 head north, opposite the nearest checkpoint. Onward to the Interludes."
+        }
+      ]
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "steps": [
+        {
+          "zone": "Clearfell",
+          "bosses": [
+            "Beira of the Rotten Pack"
+          ],
+          "travel": "The Grelwood"
+        },
+        {
+          "zone": "The Grelwood",
+          "waypoint": true,
+          "travel": "Cemetery of the Eternals",
+          "note": "Same layout as Normal \u2014 Red Vale and Grim Tangle branch off here if you want the side bosses again."
+        },
+        {
+          "zone": "Cemetery of the Eternals",
+          "bosses": [
+            "Draven",
+            "Asinia",
+            "Lachlann of Endless Lament"
+          ],
+          "travel": "Hunting Grounds"
+        },
+        {
+          "zone": "Hunting Grounds",
+          "bosses": [
+            "The Crowbell"
+          ],
+          "travel": "Ogham Farmlands"
+        },
+        {
+          "zone": "Ogham Farmlands",
+          "travel": "Ogham Village"
+        },
+        {
+          "zone": "Ogham Village",
+          "bosses": [
+            "The Executioner"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "Clearfell Encampment",
+          "travel": "The Manor Ramparts"
+        },
+        {
+          "zone": "The Manor Ramparts",
+          "travel": "Ogham Manor: First Floor"
+        },
+        {
+          "zone": "Ogham Manor: First Floor",
+          "bosses": [
+            "Candlemass, the Living Rite"
+          ],
+          "travel": "Ogham Manor: Second Floor"
+        },
+        {
+          "zone": "Ogham Manor: Second Floor",
+          "travel": "Ogham Manor: Third Floor"
+        },
+        {
+          "zone": "Ogham Manor: Third Floor",
+          "bosses": [
+            "Count of Ogham"
+          ],
+          "tp": true,
+          "note": "Completes Act 1 Cruel."
+        }
+      ]
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "steps": [
+        {
+          "zone": "Vastiri Outskirts",
+          "bosses": [
+            "Rathbreaker"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Mawdun Quarry"
+        },
+        {
+          "zone": "Mawdun Quarry",
+          "travel": "Mawdun Mine"
+        },
+        {
+          "zone": "Mawdun Mine",
+          "bosses": [
+            "Rudja, the Dread Engineer"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Traitor's Passage"
+        },
+        {
+          "zone": "Traitor's Passage",
+          "bosses": [
+            "Balbala, the Traitor"
+          ],
+          "travel": "The Halani Gates"
+        },
+        {
+          "zone": "The Halani Gates",
+          "bosses": [
+            "Jamanra, the Risen King"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "The Caravan",
+          "trial": "Trial of the Sekhemas",
+          "travel": "Keth"
+        },
+        {
+          "zone": "Keth",
+          "bosses": [
+            "Kabala, Constrictor Queen"
+          ],
+          "travel": "The Lost City"
+        },
+        {
+          "zone": "The Lost City",
+          "travel": "Buried Shrines"
+        },
+        {
+          "zone": "Buried Shrines",
+          "bosses": [
+            "Azarian, the Forsaken Son"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "Deshar"
+        },
+        {
+          "zone": "Deshar",
+          "travel": "The Spires of Deshar"
+        },
+        {
+          "zone": "The Spires of Deshar",
+          "bosses": [
+            "Tor Gul, the Defiler"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "The Caravan",
+          "travel": "The Dreadnought Vanguard"
+        },
+        {
+          "zone": "The Dreadnought Vanguard",
+          "bosses": [
+            "Jamanra, the Abomination"
+          ],
+          "tp": true,
+          "note": "Completes Act 2 Cruel."
+        }
+      ]
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "steps": [
+        {
+          "zone": "Sandswept Marsh",
+          "travel": "Ziggurat Encampment"
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "travel": "Jungle Ruins"
+        },
+        {
+          "zone": "Jungle Ruins",
+          "bosses": [
+            "Mighty Silverfist"
+          ],
+          "travel": "Chimeral Wetlands"
+        },
+        {
+          "zone": "Chimeral Wetlands",
+          "bosses": [
+            "Xyclucian, The Chimera"
+          ],
+          "trial": "Trial of Chaos",
+          "travel": "Jiquani's Machinarium"
+        },
+        {
+          "zone": "Jiquani's Machinarium",
+          "bosses": [
+            "Blackjaw, the Remnant"
+          ],
+          "travel": "Jiquani's Sanctum"
+        },
+        {
+          "zone": "Jiquani's Sanctum",
+          "bosses": [
+            "Zicoatl, Warden of the Core"
+          ],
+          "travel": "The Matlan Waterways"
+        },
+        {
+          "zone": "The Matlan Waterways",
+          "tp": true
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "travel": "The Drowned City"
+        },
+        {
+          "zone": "The Drowned City",
+          "travel": "The Molten Vault"
+        },
+        {
+          "zone": "The Molten Vault",
+          "bosses": [
+            "Mektul, the Forgemaster"
+          ],
+          "travel": "Apex of Filth"
+        },
+        {
+          "zone": "Apex of Filth",
+          "bosses": [
+            "Queen of Filth"
+          ],
+          "tp": true
+        },
+        {
+          "zone": "Ziggurat Encampment",
+          "travel": "Temple of Kopec"
+        },
+        {
+          "zone": "Temple of Kopec",
+          "bosses": [
+            "Ketzuli, High Priest of the Sun"
+          ],
+          "travel": "Utzaal"
+        },
+        {
+          "zone": "Utzaal",
+          "bosses": [
+            "Viper Napuatzi"
+          ],
+          "travel": "Aggorat"
+        },
+        {
+          "zone": "Aggorat",
+          "travel": "The Black Chambers"
+        },
+        {
+          "zone": "The Black Chambers",
+          "bosses": [
+            "Doryani, Royal Thaumaturge"
+          ],
+          "tp": true,
+          "note": "Completes Act 3 Cruel \u2014 and the current campaign. Acts 5-6 arrive with the 1.0 full release."
+        }
+      ]
+    }
+  ]
+}

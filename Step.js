@@ -2,7 +2,7 @@
 const React = require('react');
 const {Box, Newline, Text, Spacer} = require('ink');
 
-const {acts} = require('./data/steps.3.18.json');
+const {acts} = require('./data/steps.poe2-0.5.json');
 
 const Step = ({step, label}) => {
   let borderStyle = "round";
@@ -12,9 +12,10 @@ const Step = ({step, label}) => {
   if (!step) {
     borderStyle = undefined
   } else {
+    const actLabel = `Act ${step.act}${step.difficulty === 'cruel' ? ' (Cruel)' : ''}`;
     actLabelNode = (
       <Box flexDirection="row-reverse" paddingX={2}>
-        <Text><Text color={label ? "gray" : "blueBright"}>{step.act}</Text><Text color="gray">.</Text><Text color={label ? "gray" : "whiteBright"}>{step.step}</Text></Text>
+        <Text><Text color={label ? "gray" : "blueBright"}>{actLabel}</Text><Text color="gray">.</Text><Text color={label ? "gray" : "whiteBright"}>{step.step}</Text></Text>
       </Box>
     );
   }
@@ -55,7 +56,7 @@ const Step = ({step, label}) => {
     }
 
     if (step && step.trial) {
-      trialNode = <Text color={color}><Text color="cyan">↑</Text> Do the <Text color="cyan">ascendency trial</Text> if needed</Text>;
+      trialNode = <Text color={color}><Text color="cyan">↑</Text> Do the <Text color="cyan">{step.trial}</Text> if needed</Text>;
     }
 
     if (step && step.port) {
@@ -64,10 +65,6 @@ const Step = ({step, label}) => {
 
     if (step && step.travel) {
       goNode = <Text color={color}><Text color="green">→</Text> Travel to <Text color="green">{step.travel}</Text></Text>;
-    }
-
-    if (step && step.sail) {
-      goNode = <Text color={color}><Text color="blueBright">→</Text> Sail to <Text color="green">{step.sail}</Text></Text>;
     }
 
     if (step && step.tp) {

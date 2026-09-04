@@ -1,6 +1,6 @@
 # poe-guide
 
-Small CLI tool to help with Path of Exile Leveling
+Small CLI tool to help with Path of Exile 2 Leveling
 
 ![Screenshot](screenshot.png?raw=true "POE Guide Screenshot")
 
@@ -30,10 +30,19 @@ After that it remembers this setting and doesn't require it again. Depending on
 your system you might need to run with polling in order for it to accurately
 watch your game file.
 
-So run something like this once, with the path to your game log:
+So run something like this once, with the path to your game log. Note this is
+the **Path of Exile 2** log file, found under the game's own `logs` folder
+(not the `Documents/My Games/Path of Exile 2` folder, which only holds
+save/config data, not the log):
 
 ```sh
-poe-guide.exe -l "D:\SteamLibrary\steamapps\common\Path of Exile\logs\Client.txt"
+# Windows
+poe-guide.exe -l "D:\SteamLibrary\steamapps\common\Path of Exile 2\logs\Client.txt"
+```
+
+```sh
+# Native Linux (Steam)
+poe-guide -l ~/.local/share/Steam/steamapps/common/"Path of Exile 2"/logs/Client.txt
 ```
 
 After that you can run without the `-l` parameter. Add the `-p` parameter if
@@ -60,9 +69,18 @@ The following keybindings are available when the app is running:
 
 ## Changes
 
-Right now I'm sure it isn't perfect but can get me from Act 1 to 10 without
-looking at other guides. If you have any suggestions for changes please let me
-know either as issues on [github](https://github.com/kelsin/poe-guide/issues).
+This fork targets **Path of Exile 2** (currently Early Access patch 0.5.x),
+not the original Path of Exile. It covers Acts 1-4 (Normal) and the current
+Cruel difficulty pass of Acts 1-3, built from community leveling guides and
+cross-referenced against a real Client.txt. Zone changes are auto-detected
+from the game's own `[LOADING SCREEN] (<zone name>)` log line, matched
+directly against each step's zone name. Zone-to-zone travel notes should be
+solid, but exact zone levels are approximate estimates rather than confirmed
+values. Acts 5-6 aren't in the data yet since they don't exist in the game
+until the 1.0 full release (December 2026).
+
+If you have any suggestions for changes please let me know either as issues
+on [github](https://github.com/kelsin/poe-guide/issues).
 
 I would love to eventually provide options where you can turn on or off
 different options (Such as "Do trials" or "All quests" or "Only passive quests"

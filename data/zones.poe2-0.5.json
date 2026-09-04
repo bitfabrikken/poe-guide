@@ -1,0 +1,870 @@
+{
+  "version": "0.5.5",
+  "zones": [
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Clearfell",
+      "level": 1
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "waypoint"
+      ],
+      "name": "The Grelwood",
+      "level": 2
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Red Vale",
+      "level": 3
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "waypoint",
+        "town"
+      ],
+      "name": "Clearfell Encampment",
+      "level": 4
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "The Grim Tangle",
+      "level": 5
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Cemetery of the Eternals",
+      "level": 6
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Hunting Grounds",
+      "level": 7
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Freythorn",
+      "level": 8
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Ogham Farmlands",
+      "level": 9
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Ogham Village",
+      "level": 10
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "The Manor Ramparts",
+      "level": 11
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Ogham Manor: First Floor",
+      "level": 12
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Ogham Manor: Second Floor",
+      "level": 13
+    },
+    {
+      "act": 1,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Ogham Manor: Third Floor",
+      "level": 14
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Vastiri Outskirts",
+      "level": 14
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "waypoint",
+        "town",
+        "trial"
+      ],
+      "name": "The Caravan",
+      "level": 15
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Mawdun Quarry",
+      "level": 16
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Mawdun Mine",
+      "level": 17
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Traitor's Passage",
+      "level": 18
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Halani Gates",
+      "level": 19
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Keth",
+      "level": 20
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "The Lost City",
+      "level": 21
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Buried Shrines",
+      "level": 22
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Mastodon Badlands",
+      "level": 23
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Bone Pits",
+      "level": 24
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Valley of the Titans",
+      "level": 25
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Titan Grotto",
+      "level": 26
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Deshar",
+      "level": 27
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Path of Mourning",
+      "level": 28
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Spires of Deshar",
+      "level": 29
+    },
+    {
+      "act": 2,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Dreadnought Vanguard",
+      "level": 30
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Sandswept Marsh",
+      "level": 25
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "waypoint",
+        "town"
+      ],
+      "name": "Ziggurat Encampment",
+      "level": 26
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Jungle Ruins",
+      "level": 27
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Infested Barrens",
+      "level": 28
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Azak Bog",
+      "level": 29
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "The Venom Crypts",
+      "level": 30
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss",
+        "trial"
+      ],
+      "name": "Chimeral Wetlands",
+      "level": 31
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Jiquani's Machinarium",
+      "level": 32
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Jiquani's Sanctum",
+      "level": 33
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "The Matlan Waterways",
+      "level": 34
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "The Drowned City",
+      "level": 35
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Molten Vault",
+      "level": 36
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Apex of Filth",
+      "level": 37
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Temple of Kopec",
+      "level": 38
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Utzaal",
+      "level": 39
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Aggorat",
+      "level": 40
+    },
+    {
+      "act": 3,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Black Chambers",
+      "level": 41
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "waypoint",
+        "town"
+      ],
+      "name": "Kingsmarch",
+      "level": 35
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Whakapanu Island",
+      "level": 36
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Singing Caverns",
+      "level": 37
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Shrike Island",
+      "level": 38
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Abandoned Prison",
+      "level": 39
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Solitary Confinement",
+      "level": 40
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Isle of Kin",
+      "level": 41
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Volcanic Warrens",
+      "level": 42
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Kedge Bay",
+      "level": 43
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Journey's End",
+      "level": 44
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Arastas",
+      "level": 45
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Excavation",
+      "level": 46
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Eye of Hinekora",
+      "level": 47
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Halls of the Dead",
+      "level": 48
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Trial of the Ancestors",
+      "level": 49
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [],
+      "name": "Ngakanu",
+      "level": 50
+    },
+    {
+      "act": 4,
+      "difficulty": "normal",
+      "tags": [
+        "boss"
+      ],
+      "name": "Heart of the Tribe",
+      "level": 51
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Clearfell",
+      "level": 50
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "waypoint"
+      ],
+      "name": "The Grelwood",
+      "level": 51
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Cemetery of the Eternals",
+      "level": 52
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Hunting Grounds",
+      "level": 53
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "Ogham Farmlands",
+      "level": 54
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Ogham Village",
+      "level": 55
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "waypoint",
+        "town"
+      ],
+      "name": "Clearfell Encampment",
+      "level": 56
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "The Manor Ramparts",
+      "level": 57
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Ogham Manor: First Floor",
+      "level": 58
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "Ogham Manor: Second Floor",
+      "level": 59
+    },
+    {
+      "act": 1,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Ogham Manor: Third Floor",
+      "level": 60
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Vastiri Outskirts",
+      "level": 57
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "waypoint",
+        "town",
+        "trial"
+      ],
+      "name": "The Caravan",
+      "level": 58
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "Mawdun Quarry",
+      "level": 59
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Mawdun Mine",
+      "level": 60
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Traitor's Passage",
+      "level": 61
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Halani Gates",
+      "level": 62
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Keth",
+      "level": 63
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "The Lost City",
+      "level": 64
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Buried Shrines",
+      "level": 65
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "Deshar",
+      "level": 66
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Spires of Deshar",
+      "level": 67
+    },
+    {
+      "act": 2,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Dreadnought Vanguard",
+      "level": 68
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "Sandswept Marsh",
+      "level": 63
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "waypoint",
+        "town"
+      ],
+      "name": "Ziggurat Encampment",
+      "level": 64
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Jungle Ruins",
+      "level": 65
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss",
+        "trial"
+      ],
+      "name": "Chimeral Wetlands",
+      "level": 66
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Jiquani's Machinarium",
+      "level": 67
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Jiquani's Sanctum",
+      "level": 68
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "The Matlan Waterways",
+      "level": 69
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "The Drowned City",
+      "level": 70
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Molten Vault",
+      "level": 71
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Apex of Filth",
+      "level": 72
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Temple of Kopec",
+      "level": 73
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "Utzaal",
+      "level": 74
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [],
+      "name": "Aggorat",
+      "level": 75
+    },
+    {
+      "act": 3,
+      "difficulty": "cruel",
+      "tags": [
+        "boss"
+      ],
+      "name": "The Black Chambers",
+      "level": 76
+    }
+  ]
+}
