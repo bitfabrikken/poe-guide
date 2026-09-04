@@ -236,7 +236,8 @@
           "bosses": [
             "Zalmarath, the Colossus"
           ],
-          "tp": true
+          "tp": true,
+          "note": "Tight winding corridors with a long straight passage at each end. The boss is on the opposite side of the zone from the waypoint."
         },
         {
           "zone": "The Caravan",
@@ -250,7 +251,8 @@
         },
         {
           "zone": "Path of Mourning",
-          "travel": "The Spires of Deshar"
+          "travel": "The Spires of Deshar",
+          "note": "Circular buildings linked by narrow bridges — cross toward the opposite side of the zone from your entrance to find the exit."
         },
         {
           "zone": "The Spires of Deshar",
